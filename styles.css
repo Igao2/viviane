@@ -1,11 +1,17 @@
-@media (max-width: 768px) {
+@media (min-width:320px) and (max-width: 768px) {
     header {
       font-size: 11px;
     }
     footer {
         font-size: 11px;
     }
+    .circle{
+        background-image: url("ia.jpg") !important;
+        width: 280px !important;
+    height: 200px !important;
+    }
   }
+  
 body {
     font-family: 'Montserrat',sans-serif;;
     margin: 0;
@@ -81,13 +87,12 @@ header {
 
 .circle {
 
-    width: 200px;
-    height: 200px;
-    background-image: url("454280929_7968831799865346_5072595449946020940_n.jpg");
+    width: 450px;
+    height: 320px;
+    background-image: url("WhatsApp\ Image\ 2024-08-15\ at\ 13.10.30.jpeg");
     background-position: center;
     background-size: cover;
-    border-radius: 50%;
-    border: 5px solid #FF8C00;
+    border: 3px solid #FF8C00;
     display: flex;
     align-items: center;
     justify-content: center;
