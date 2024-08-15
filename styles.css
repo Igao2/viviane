@@ -1,0 +1,104 @@
+body {
+    font-family: 'Montserrat',sans-serif;;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #1376ba;
+    color:#FFFFFF;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+li{
+    text-align: start;
+}
+.planos {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  }
+  
+  .coluna {
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+#SobreMim,#PlanosDeGoverno{
+width: 80%;
+margin: 0 auto;
+text-align: center;
+}
+header {
+    background-color: #f1811b;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+.facebook,.instagram{
+    border-radius: 14px;
+    border-color: transparent;
+    background-color: transparent;
+    padding: 14px;
+    border-color: transparent;
+  
+}
+.facebook{
+    background-color: transparent;
+    background-image: url("download\ \(7\).png");
+    background-position: center;
+    background-size: cover;
+}
+.instagram{
+  
+    background-image: url("instagram_2111463.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.circle {
+
+    width: 200px;
+    height: 200px;
+    background-image: url("454280929_7968831799865346_5072595449946020940_n.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 5px solid #FF8C00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    box-shadow: 2px 2px 2px black;
+}
+
+section {
+    text-align: center;
+    margin: 20px 0;
+    flex: 1;
+}
+
+footer {
+    background-color: #f1811b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    width: 100%; /* Garante que o rodapé ocupe toda a largura */
+    box-sizing: border-box; /* Inclui padding e borda na largura */
+}
